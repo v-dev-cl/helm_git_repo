@@ -3,7 +3,7 @@ entries:
   gitrepotest:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-01-23T19:18:58.4612394-03:00"
+    created: "2023-01-23T19:26:57.350153346-03:00"
     description: New Text
     digest: 7ddfcf3a6770f05dc4c11ec08ed09d1f171b9cf22ebc37618f46653eb76728c0
     name: gitrepotest
@@ -11,4 +11,37 @@ entries:
     urls:
     - gitrepotest-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-23T19:18:58.460896335-03:00"
+  gitrepotest2:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-01-23T19:26:57.350350892-03:00"
+    description: A Helm chart for Kubernetes
+    digest: d4cc5027068ae253d227e6dcb522c91da04620bc6186fa7d842432e91cf45232
+    name: gitrepotest2
+    type: application
+    urls:
+    - gitrepotest2-0.1.0.tgz
+    version: 0.1.0
+  myrepo2:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-01-23T19:26:57.350536942-03:00"
+    description: My another project
+    digest: 5c288a3ef5af30df818e5efef369ede6c338ac03d6b51f8536eb221bd4b7722b
+    name: myrepo2
+    type: application
+    urls:
+    - myrepo2-0.1.0.tgz
+    version: 0.1.0
+  repotest:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-01-23T19:26:57.350718222-03:00"
+    description: Repo Demo in Helm using chartmuseum
+    digest: 7aaea292973de05f1e4944aee17015233ce6745c16a6feb8cefa2b12874abe36
+    name: repotest
+    type: application
+    urls:
+    - repotest-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-01-23T19:26:57.349871228-03:00"
